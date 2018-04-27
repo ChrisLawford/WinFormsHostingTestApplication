@@ -57,6 +57,12 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HostingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HostingForm.Designer.cs">
+      <DependentUpon>HostingForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,9 @@
     <Compile Include="WPFcontrol.xaml.cs">
       <DependentUpon>WPFcontrol.xaml</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="HostingForm.resx">
+      <DependentUpon>HostingForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>

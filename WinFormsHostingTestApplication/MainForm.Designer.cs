@@ -38,7 +38,7 @@
             this.AddWPF_button.Name = "AddWPF_button";
             this.AddWPF_button.Size = new System.Drawing.Size(317, 156);
             this.AddWPF_button.TabIndex = 0;
-            this.AddWPF_button.Text = "Attach WPF control";
+            this.AddWPF_button.Text = "Add WPF control";
             this.AddWPF_button.UseVisualStyleBackColor = true;
             this.AddWPF_button.Click += new System.EventHandler(this.AddWPF_Click);
             // 
@@ -48,7 +48,7 @@
             this.AddWinForms_button.Name = "AddWinForms_button";
             this.AddWinForms_button.Size = new System.Drawing.Size(317, 156);
             this.AddWinForms_button.TabIndex = 0;
-            this.AddWinForms_button.Text = "Attach WinForms control";
+            this.AddWinForms_button.Text = "Add WinForms control";
             this.AddWinForms_button.UseVisualStyleBackColor = true;
             this.AddWinForms_button.Click += new System.EventHandler(this.AddWinForms_Click);
             // 
